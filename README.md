@@ -6,12 +6,17 @@ Esse projeto ilustra um lançamento hipotético de uma nave tripulada para Marte
 Os números ilustrados no CSV e no resultado do exemplo de execução, foram aleatoriamente gerados por uma IA, sem nenhuma relação com a realidade.
 
 o Codigo ira analisar os dados com base nos seguintes parâmetros:
-  integridade estrutural (0 ou 1) - 0 = falha
-  temperatura interna (ºC) - qualquer valor acima de 35 = falha
-  temperatura externa (ºC) - qualquer valor menor que 60 = falha
-  nivel de energia (% da capacidade máxima) - qualquer valor menor que 60 = falha
-  pressão do tanque (bar) - qualquer velor menor que 4.0 = falha
-  qualquer módulo crítico (0 ou 1) - 0 = falha
+  integridade estrutural (0 ou 1) - 0 = falha,
+
+  temperatura interna (ºC) - qualquer valor acima de 35 = falha,
+  
+  temperatura externa (ºC) - qualquer valor menor que 60 = falha,
+  
+  nivel de energia (% da capacidade máxima) - qualquer valor menor que 60 = falha,
+  
+  pressão do tanque (bar) - qualquer velor menor que 4.0 = falha,
+  
+  qualquer módulo crítico (0 ou 1) - 0 = falha,
 
 o código irá analisar cada um dos dados fornecidos e retornar "Lançamento Autorizado" caso tudo esteja OK, caso um, ou mais modulos estejam fora dos parametros, retornará "Lançamento não Permitido"
 
